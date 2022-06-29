@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "unity": "2018.4",
   "description": "Collection of game utility classes and functions for Unity.",
-  "documentationUrl": "https://github.com/SimpleUnityPlugins/ExtensionFunction/blob/main/README.md",
-  "changelogUrl": "https://github.com/SimpleUnityPlugins/ExtensionFunction/blob/main/README.md",
-  "licensesUrl": "https://github.com/SimpleUnityPlugins/ExtensionFunction/blob/main/LICENSE"
+  "documentationUrl": "https://github.com/SimpleUnityPlugins/GameUtils/blob/main/README.md",
+  "changelogUrl": "https://github.com/SimpleUnityPlugins/GameUtils/blob/main/README.md",
+  "licensesUrl": "https://github.com/SimpleUnityPlugins/GameUtils/blob/main/LICENSE"
 }
