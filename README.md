@@ -1,6 +1,10 @@
 # Game Utils
 Collection of game utility classes and functions for Unity.
 
+## Installation
+Refer this link for installation guide:ls
+https://docs.unity3d.com/Manual/upm-ui-giturl.html
+
 ## Features
 * PersistentSingletonMonoBehaviour
 * SingletonMonoBehaviour
