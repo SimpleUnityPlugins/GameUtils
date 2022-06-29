@@ -1,5 +1,4 @@
 //Resharper disable all
-
 using UnityEngine;
 
 public class SingletonMonoBehaviour<T> : MonoBehaviour where T : SingletonMonoBehaviour<T> {
