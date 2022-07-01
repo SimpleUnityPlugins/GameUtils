@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace com.sup.game.utils {
+namespace SimpleUnityPlugins.GameUtils {
     public class PersistentSingletonMonoBehaviour<T> : MonoBehaviour where T : PersistentSingletonMonoBehaviour<T> {
         private static T _instance;
 
