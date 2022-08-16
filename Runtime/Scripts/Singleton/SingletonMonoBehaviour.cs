@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace SUP.GameUtils {
+namespace SUP.GameUtils.Singleton {
     public class SingletonMonoBehaviour<T> : MonoBehaviour where T : SingletonMonoBehaviour<T> {
         public static T Instance { get; private set; }
 
