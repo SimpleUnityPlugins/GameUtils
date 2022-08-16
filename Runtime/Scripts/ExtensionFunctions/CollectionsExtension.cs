@@ -55,47 +55,10 @@ namespace SUP.GameUtils.ExtensionFunctions {
 
         #endregion
 
-        #region Aggregate functions
-
-        public static string AggregateAll(this IEnumerable<string> list, string separator = ", ") =>
-            AggregateString(list, separator);
-
-        public static string AggregateNames(this IEnumerable<Sprite> enumerable, string separator = ", ") =>
-            AggregateAllNames(enumerable, separator);
-
-        public static string AggregateNames(this IEnumerable<GameObject> enumerable, string separator = ", ") =>
-            AggregateAllNames(enumerable, separator);
-
-        #endregion
-
         #region Private helper functions
 
         private static void ChangeGameObjectsState(IEnumerable<GameObject> enumerable, bool value) {
             enumerable.ToList().ForEach(gameObj => gameObj.SetActive(value));
-        }
-
-
-        private static string AggregateString(IEnumerable<string> enumerable, string separator) {
-            return string.Join(separator, enumerable);
-        }
-
-        private static string AggregateAllNames<T>(IEnumerable<T> enumerable, string separator) {
-            var allNamesList = new List<string>();
-            var list = enumerable.ToList();
-            
-            list.ForEach(t => {
-                if (typeof(T) == typeof(GameObject)) {
-                    if (t is not GameObject gameObj) {
-                        return;
-                    }
-
-                    allNamesList.Add(gameObj.name);
-                } else if (typeof(T) == typeof(Sprite)) {
-                    if (t is not Sprite sprite) return;
-                    allNamesList.Add(sprite.name);
-                }
-            });
-            return AggregateString(allNamesList, separator);
         }
 
         private static void ChangeCollidersState(IEnumerable<GameObject> enumerable, bool value) {
