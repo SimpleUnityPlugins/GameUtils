@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace SUP.GameUtils.ExtensiveFunctions {
+namespace SUP.GameUtils.ExtensionFunctions {
     public static class TransformExtension {
         #region Immediate children functions
 

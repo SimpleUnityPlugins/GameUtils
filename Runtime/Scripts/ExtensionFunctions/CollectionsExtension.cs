@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using Random = System.Random;
 
-namespace SUP.GameUtils.ExtensiveFunctions {
+namespace SUP.GameUtils.ExtensionFunctions {
     public static class CollectionsExtension {
         #region GameObject functions
 
@@ -82,7 +82,7 @@ namespace SUP.GameUtils.ExtensiveFunctions {
         private static string AggregateAllNames<T>(IEnumerable<T> enumerable, string separator) {
             var allNamesList = new List<string>();
             var list = enumerable.ToList();
-
+            
             list.ForEach(t => {
                 if (typeof(T) == typeof(GameObject)) {
                     if (t is not GameObject gameObj) {
