@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SUP.GameUtils.Animations {
+namespace SUP.GameUtils {
     [RequireComponent(typeof(Transform))]
     public class FloatingEffect2D : MonoBehaviour {
         public float amplitude = 1f, speed = 1f, startTime;

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SUP.GameUtils.ExtensionFunctions {
+namespace SUP.GameUtils {
     public static class DictionaryExtension{
         public static void AddSafe<TK, TV>(this IDictionary<TK, TV> dictionary, TK key, TV value) {
             if (dictionary.ContainsKey(key)) dictionary[key] = value;

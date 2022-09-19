@@ -1,7 +1,7 @@
 // ReSharper disable All
 using UnityEngine;
 
-namespace SUP.GameUtils.ExtensionFunctions {
+namespace SUP.GameUtils {
     public static class Collider2DExtension
     {
         public static void CopyFrom(this Collider2D destCollider, Collider2D sourceCollider) {

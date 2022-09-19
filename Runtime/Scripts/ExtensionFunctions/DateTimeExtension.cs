@@ -3,7 +3,7 @@
 using System;
 using UnityEngine;
 
-namespace SUP.GameUtils.ExtensionFunctions {
+namespace SUP.GameUtils {
     public static class DateTimeExtension{
         public static readonly DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0);
 

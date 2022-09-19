@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace SUP.GameUtils.ExtensionFunctions {
+namespace SUP.GameUtils {
     public static class Vector2Extension{
         public static Vector2 SetX(this Vector2 vector2, float newX) {
             vector2.x = newX;

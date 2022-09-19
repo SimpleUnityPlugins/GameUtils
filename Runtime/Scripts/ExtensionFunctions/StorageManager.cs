@@ -6,7 +6,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace SUP.GameUtils.ExtensionFunctions {
+namespace SUP.GameUtils {
     public class StorageManager{
         public static string ExternalLocation = Application.persistentDataPath + "/Storage/";
         public static string InternalLocation = Application.streamingAssetsPath + "/Storage/";

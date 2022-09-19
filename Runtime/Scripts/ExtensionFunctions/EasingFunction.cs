@@ -59,7 +59,7 @@ using UnityEngine;
  * float derivativeValue = derivativeFunc(0, 10, 0.67f);
  */
 
-namespace SUP.GameUtils.ExtensionFunctions {
+namespace SUP.GameUtils {
     public class EasingFunction{
         public enum Ease{
             EaseInQuad = 0,

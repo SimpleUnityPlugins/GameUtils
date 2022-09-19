@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace SUP.GameUtils.Animations {
+namespace SUP.GameUtils {
     public class ExtendedSafeArea : MonoBehaviour {
         [Serializable]
         public enum SafeAreaType {

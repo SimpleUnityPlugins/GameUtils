@@ -1,7 +1,7 @@
 // ReSharper disable All
 using UnityEngine;
 
-namespace SUP.GameUtils.ExtensionFunctions {
+namespace SUP.GameUtils {
     public static class Vector3Extension{
         public static Vector3 Clone(this Vector3 vector3) {
             return new Vector3(vector3.x, vector3.y, vector3.z);

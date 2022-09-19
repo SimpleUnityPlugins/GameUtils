@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using Random = System.Random;
 
-namespace SUP.GameUtils.ExtensionFunctions {
+namespace SUP.GameUtils {
     public static class CollectionsExtension {
         #region GameObject functions
 
